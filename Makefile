@@ -69,6 +69,12 @@ CFLAGS			+= $(INCLUDE) $(MCUFLAGS)
 LDFLAGS			+= -T$(LDSCRIPT) 
 LDFLAGS			+= -Wl,--gc-sections,-Map=$(MAPFILE) # Remove unused functions
 LDFLAGS			+= -nostartfiles
+LDFLAGS			+= -specs=nosys.specs
+LDFLAGS			+= -lrdimon
+LDFLAGS			+= -lc 
+LDFLAGS			+= -specs=rdimon.specs 
+LDFLAGS			+= -specs=nano.specs 
+ 
 
 # Libs need to be at the end
 

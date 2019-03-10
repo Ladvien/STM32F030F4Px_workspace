@@ -10,6 +10,102 @@ lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
                               lib/libstm32f0_periph.a(stm32f0xx_rcc.o) (__aeabi_idiv)
 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
                               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+                              build/main.o (printf)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o) (__sinit)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (_fwalk)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (_global_impure_ptr)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (memset)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (_malloc_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (__sread)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o) (_write_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o) (_close_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o) (_fflush_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o) (_lseek_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o) (memcpy)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o) (memmove)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (__malloc_lock)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o) (_free_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o) (_read_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o) (errno)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o) (_close)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o) (_fstat)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o) (_isatty)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o) (_lseek)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o) (_read)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o) (_sbrk)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o) (_write)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+errno               0x4               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
 
 Discarded input sections
 
@@ -153,6 +249,179 @@ Discarded input sections
                 0x0000000000000000       0x1e /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
  .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x1c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x1c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x38 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x1c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x14 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x2c0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x30 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x0000000000000000       0x12 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000000       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000       0x26 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x4c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000000000       0x30 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xcc /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000000       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
 
 Memory Configuration
 
@@ -163,6 +432,8 @@ ROM              0x0000000008000000 0x0000000000004000 xr
 
 Linker script and memory map
 
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
 LOAD build/system_stm32f0xx.o
 LOAD build/stm32f0xx_it.o
 LOAD build/main.o
@@ -171,8 +442,24 @@ LOAD build/delay.o
 LOAD lib/libstm32f0_periph.a
 START GROUP
 LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a
-LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
+END GROUP
+START GROUP
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
 END GROUP
                 0x0000000020001000                _estack = 0x20001000
                 0x0000000000000000                _Min_Heap_Size = 0x0
@@ -185,7 +472,7 @@ END GROUP
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c4                . = ALIGN (0x4)
 
-.text           0x00000000080000c4      0x6f8
+.text           0x00000000080000c4     0x1694
                 0x00000000080000c4                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080000c4      0x114 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
@@ -224,121 +511,270 @@ END GROUP
                 0x000000000800045c       0xdc build/main.o
  .text.SysTick_Config
                 0x0000000008000538       0x4c build/main.o
- .text.main     0x0000000008000584      0x118 build/main.o
+ .text.main     0x0000000008000584      0x110 build/main.o
                 0x0000000008000584                main
  .text.Reset_Handler
-                0x000000000800069c       0x4c build/startup_stm32f0xx.o
-                0x000000000800069c                Reset_Handler
+                0x0000000008000694       0x4c build/startup_stm32f0xx.o
+                0x0000000008000694                Reset_Handler
  .text.Default_Handler
-                0x00000000080006e8        0x2 build/startup_stm32f0xx.o
-                0x00000000080006e8                TIM1_BRK_UP_TRG_COM_IRQHandler
-                0x00000000080006e8                ADC1_COMP_IRQHandler
-                0x00000000080006e8                PVD_IRQHandler
-                0x00000000080006e8                I2C1_IRQHandler
-                0x00000000080006e8                SPI1_IRQHandler
-                0x00000000080006e8                TIM6_DAC_IRQHandler
-                0x00000000080006e8                EXTI2_3_IRQHandler
-                0x00000000080006e8                I2C2_IRQHandler
-                0x00000000080006e8                TIM17_IRQHandler
-                0x00000000080006e8                RTC_IRQHandler
-                0x00000000080006e8                TIM16_IRQHandler
-                0x00000000080006e8                TIM3_IRQHandler
-                0x00000000080006e8                EXTI4_15_IRQHandler
-                0x00000000080006e8                RCC_IRQHandler
-                0x00000000080006e8                DMA1_Channel1_IRQHandler
-                0x00000000080006e8                Default_Handler
-                0x00000000080006e8                CEC_IRQHandler
-                0x00000000080006e8                TIM14_IRQHandler
-                0x00000000080006e8                DMA1_Channel4_5_IRQHandler
-                0x00000000080006e8                TIM15_IRQHandler
-                0x00000000080006e8                EXTI0_1_IRQHandler
-                0x00000000080006e8                SPI2_IRQHandler
-                0x00000000080006e8                TS_IRQHandler
-                0x00000000080006e8                WWDG_IRQHandler
-                0x00000000080006e8                TIM2_IRQHandler
-                0x00000000080006e8                DMA1_Channel2_3_IRQHandler
-                0x00000000080006e8                USART2_IRQHandler
-                0x00000000080006e8                FLASH_IRQHandler
-                0x00000000080006e8                USART1_IRQHandler
-                0x00000000080006e8                TIM1_CC_IRQHandler
- *fill*         0x00000000080006ea        0x2 
+                0x00000000080006e0        0x2 build/startup_stm32f0xx.o
+                0x00000000080006e0                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x00000000080006e0                ADC1_COMP_IRQHandler
+                0x00000000080006e0                PVD_IRQHandler
+                0x00000000080006e0                I2C1_IRQHandler
+                0x00000000080006e0                SPI1_IRQHandler
+                0x00000000080006e0                TIM6_DAC_IRQHandler
+                0x00000000080006e0                EXTI2_3_IRQHandler
+                0x00000000080006e0                I2C2_IRQHandler
+                0x00000000080006e0                TIM17_IRQHandler
+                0x00000000080006e0                RTC_IRQHandler
+                0x00000000080006e0                TIM16_IRQHandler
+                0x00000000080006e0                TIM3_IRQHandler
+                0x00000000080006e0                EXTI4_15_IRQHandler
+                0x00000000080006e0                RCC_IRQHandler
+                0x00000000080006e0                DMA1_Channel1_IRQHandler
+                0x00000000080006e0                Default_Handler
+                0x00000000080006e0                CEC_IRQHandler
+                0x00000000080006e0                TIM14_IRQHandler
+                0x00000000080006e0                DMA1_Channel4_5_IRQHandler
+                0x00000000080006e0                TIM15_IRQHandler
+                0x00000000080006e0                EXTI0_1_IRQHandler
+                0x00000000080006e0                SPI2_IRQHandler
+                0x00000000080006e0                TS_IRQHandler
+                0x00000000080006e0                WWDG_IRQHandler
+                0x00000000080006e0                TIM2_IRQHandler
+                0x00000000080006e0                DMA1_Channel2_3_IRQHandler
+                0x00000000080006e0                USART2_IRQHandler
+                0x00000000080006e0                FLASH_IRQHandler
+                0x00000000080006e0                USART1_IRQHandler
+                0x00000000080006e0                TIM1_CC_IRQHandler
+ *fill*         0x00000000080006e2        0x2 
  .text.GPIO_Init
-                0x00000000080006ec       0xb0 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
-                0x00000000080006ec                GPIO_Init
+                0x00000000080006e4       0xb0 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+                0x00000000080006e4                GPIO_Init
  .text.GPIO_SetBits
-                0x000000000800079c        0x4 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
-                0x000000000800079c                GPIO_SetBits
+                0x0000000008000794        0x4 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+                0x0000000008000794                GPIO_SetBits
  .text.GPIO_ResetBits
-                0x00000000080007a0        0x4 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
-                0x00000000080007a0                GPIO_ResetBits
+                0x0000000008000798        0x4 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+                0x0000000008000798                GPIO_ResetBits
  .text.RCC_AHBPeriphClockCmd
-                0x00000000080007a4       0x18 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
-                0x00000000080007a4                RCC_AHBPeriphClockCmd
+                0x000000000800079c       0x18 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+                0x000000000800079c                RCC_AHBPeriphClockCmd
+ .text.printf   0x00000000080007b4       0x34 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+                0x00000000080007b4                printf
+                0x00000000080007b4                iprintf
+ .text.std      0x00000000080007e8       0x48 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000008000830       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008000830                _cleanup_r
+ .text.__sfmoreglue
+                0x0000000008000840       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008000840                __sfmoreglue
+ .text.__sfp_lock_acquire
+                0x000000000800086c       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800086c                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x000000000800087c       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800087c                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x000000000800088c       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800088c                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x000000000800089c       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800089c                __sinit_lock_release
+ .text.__sinit  0x00000000080008ac       0x70 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080008ac                __sinit
+ .text.__sfp    0x000000000800091c       0x90 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800091c                __sfp
+ .text._fwalk_reent
+                0x00000000080009ac       0x42 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                0x00000000080009ac                _fwalk_reent
+ .text.__retarget_lock_init_recursive
+                0x00000000080009ee        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x00000000080009ee                __retarget_lock_init_recursive
+ .text.__retarget_lock_acquire_recursive
+                0x00000000080009f0        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x00000000080009f0                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00000000080009f2        0x2 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x00000000080009f2                __retarget_lock_release_recursive
+ .text.memset   0x00000000080009f4       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x00000000080009f4                memset
+ .text._malloc_r
+                0x0000000008000a04       0xbc /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008000a04                _malloc_r
+ .text.__sfputc_r
+                0x0000000008000ac0       0x2a /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x0000000008000aea       0x24 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008000aea                __sfputs_r
+ *fill*         0x0000000008000b0e        0x2 
+ .text._vfprintf_r
+                0x0000000008000b10      0x26c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008000b10                _vfiprintf_r
+                0x0000000008000b10                _vfprintf_r
+ .text._printf_common
+                0x0000000008000d7c       0xda /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008000d7c                _printf_common
+ *fill*         0x0000000008000e56        0x2 
+ .text._printf_i
+                0x0000000008000e58      0x214 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008000e58                _printf_i
+ .text._sbrk_r  0x000000000800106c       0x24 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x000000000800106c                _sbrk_r
+ .text.__sread  0x0000000008001090       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008001090                __sread
+ .text.__swrite
+                0x00000000080010b8       0x38 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x00000000080010b8                __swrite
+ .text.__sseek  0x00000000080010f0       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x00000000080010f0                __sseek
+ .text.__sclose
+                0x000000000800111c        0xc /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x000000000800111c                __sclose
+ .text.__swbuf_r
+                0x0000000008001128       0xac /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                0x0000000008001128                __swbuf_r
+ .text._write_r
+                0x00000000080011d4       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+                0x00000000080011d4                _write_r
+ .text.__swsetup_r
+                0x00000000080011fc       0xec /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                0x00000000080011fc                __swsetup_r
+ .text._close_r
+                0x00000000080012e8       0x24 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+                0x00000000080012e8                _close_r
+ .text.__sflush_r
+                0x000000000800130c      0x114 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x000000000800130c                __sflush_r
+ .text._fflush_r
+                0x0000000008001420       0x80 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x0000000008001420                _fflush_r
+ .text._lseek_r
+                0x00000000080014a0       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                0x00000000080014a0                _lseek_r
+ .text.__swhatbuf_r
+                0x00000000080014c8       0x50 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x00000000080014c8                __swhatbuf_r
+ .text.__smakebuf_r
+                0x0000000008001518       0x88 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x0000000008001518                __smakebuf_r
+ .text.memchr   0x00000000080015a0       0x16 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+                0x00000000080015a0                memchr
+ *fill*         0x00000000080015b6        0x2 
+ .text.__malloc_lock
+                0x00000000080015b8       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x00000000080015b8                __malloc_lock
+ .text.__malloc_unlock
+                0x00000000080015c8       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x00000000080015c8                __malloc_unlock
+ .text._free_r  0x00000000080015d8       0x94 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x00000000080015d8                _free_r
+ .text._read_r  0x000000000800166c       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+                0x000000000800166c                _read_r
+ .text._fstat_r
+                0x0000000008001694       0x24 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                0x0000000008001694                _fstat_r
+ .text._isatty_r
+                0x00000000080016b8       0x24 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                0x00000000080016b8                _isatty_r
+ .text._close   0x00000000080016dc       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+                0x00000000080016dc                _close
+ .text._fstat   0x00000000080016ec       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+                0x00000000080016ec                _fstat
+ .text._isatty  0x00000000080016fc       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+                0x00000000080016fc                _isatty
+ .text._lseek   0x000000000800170c       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+                0x000000000800170c                _lseek
+ .text._read    0x000000000800171c       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+                0x000000000800171c                _read
+ .text._sbrk    0x000000000800172c       0x1c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+                0x000000000800172c                _sbrk
+ .text._write   0x0000000008001748       0x10 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
+                0x0000000008001748                _write
  *(.glue_7)
- .glue_7        0x00000000080007bc        0x0 linker stubs
+ .glue_7        0x0000000008001758        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080007bc        0x0 linker stubs
+ .glue_7t       0x0000000008001758        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x00000000080007bc                . = ALIGN (0x4)
-                0x00000000080007bc                _etext = .
+                0x0000000008001758                . = ALIGN (0x4)
+                0x0000000008001758                _etext = .
 
-.vfp11_veneer   0x00000000080007bc        0x0
- .vfp11_veneer  0x00000000080007bc        0x0 linker stubs
+.vfp11_veneer   0x0000000008001758        0x0
+ .vfp11_veneer  0x0000000008001758        0x0 linker stubs
 
-.v4_bx          0x00000000080007bc        0x0
- .v4_bx         0x00000000080007bc        0x0 linker stubs
+.v4_bx          0x0000000008001758        0x0
+ .v4_bx         0x0000000008001758        0x0 linker stubs
 
-.iplt           0x00000000080007bc        0x0
- .iplt          0x00000000080007bc        0x0 build/system_stm32f0xx.o
+.iplt           0x0000000008001758        0x0
+ .iplt          0x0000000008001758        0x0 build/system_stm32f0xx.o
 
-.rel.dyn        0x00000000080007bc        0x0
- .rel.iplt      0x00000000080007bc        0x0 build/system_stm32f0xx.o
-
-.rodata         0x00000000080007bc        0x0
-                0x00000000080007bc                . = ALIGN (0x4)
+.rodata         0x0000000008001758       0x98
+                0x0000000008001758                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x00000000080007bc                . = ALIGN (0x4)
+ .rodata.__sf_fake_stderr
+                0x0000000008001758       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008001758                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x0000000008001778       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008001778                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000000008001798       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008001798                __sf_fake_stdout
+ .rodata._global_impure_ptr
+                0x00000000080017b8        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x00000000080017b8                _global_impure_ptr
+ .rodata._vfprintf_r.str1.1
+                0x00000000080017bc       0x11 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .rodata._printf_i.str1.1
+                0x00000000080017cd       0x22 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000080017f0                . = ALIGN (0x4)
+ *fill*         0x00000000080017ef        0x1 
 
-.ARM.extab      0x00000000080007bc        0x0
-                0x00000000080007bc                . = ALIGN (0x4)
+.rel.dyn        0x00000000080017f0        0x0
+ .rel.iplt      0x00000000080017f0        0x0 build/system_stm32f0xx.o
+
+.ARM.extab      0x00000000080017f0        0x0
+                0x00000000080017f0                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080007bc                . = ALIGN (0x4)
+                0x00000000080017f0                . = ALIGN (0x4)
 
-.ARM            0x00000000080007bc        0x0
-                0x00000000080007bc                . = ALIGN (0x4)
-                0x00000000080007bc                __exidx_start = .
+.ARM            0x00000000080017f0        0x0
+                0x00000000080017f0                . = ALIGN (0x4)
+                0x00000000080017f0                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080007bc                __exidx_end = .
-                0x00000000080007bc                . = ALIGN (0x4)
+                0x00000000080017f0                __exidx_end = .
+                0x00000000080017f0                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080007bc        0x0
-                0x00000000080007bc                . = ALIGN (0x4)
+.preinit_array  0x00000000080017f0        0x0
+                0x00000000080017f0                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
                 [!provide]                        PROVIDE (__preinit_array_end = .)
-                0x00000000080007bc                . = ALIGN (0x4)
+                0x00000000080017f0                . = ALIGN (0x4)
 
-.init_array     0x00000000080007bc        0x0
-                0x00000000080007bc                . = ALIGN (0x4)
+.init_array     0x00000000080017f0        0x0
+                0x00000000080017f0                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
                 [!provide]                        PROVIDE (__init_array_end = .)
-                0x00000000080007bc                . = ALIGN (0x4)
+                0x00000000080017f0                . = ALIGN (0x4)
 
-.fini_array     0x00000000080007bc        0x0
-                0x00000000080007bc                . = ALIGN (0x4)
+.fini_array     0x00000000080017f0        0x0
+                0x00000000080017f0                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000080007bc                . = ALIGN (0x4)
-                0x00000000080007bc                _sidata = LOADADDR (.data)
+                0x00000000080017f0                . = ALIGN (0x4)
+                0x00000000080017f0                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x14 load address 0x00000000080007bc
+.data           0x0000000020000000       0x78 load address 0x00000000080017f0
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -349,33 +785,59 @@ END GROUP
  .data.AHBPrescTable
                 0x0000000020000004       0x10 build/system_stm32f0xx.o
                 0x0000000020000004                AHBPrescTable
-                0x0000000020000014                . = ALIGN (0x4)
-                0x0000000020000014                _edata = .
+ .data._impure_ptr
+                0x0000000020000014        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000020000014                _impure_ptr
+ .data.impure_data
+                0x0000000020000018       0x60 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000020000078                . = ALIGN (0x4)
+                0x0000000020000078                _edata = .
 
-.igot.plt       0x0000000020000014        0x0 load address 0x00000000080007d0
- .igot.plt      0x0000000020000014        0x0 build/system_stm32f0xx.o
-                0x0000000020000014                . = ALIGN (0x4)
+.igot.plt       0x0000000020000078        0x0 load address 0x0000000008001868
+ .igot.plt      0x0000000020000078        0x0 build/system_stm32f0xx.o
+                0x0000000020000078                . = ALIGN (0x4)
 
-.bss            0x0000000020000014        0x0 load address 0x00000000080007d0
-                0x0000000020000014                _sbss = .
-                0x0000000020000014                __bss_start__ = _sbss
+.bss            0x0000000020000078       0x1c load address 0x0000000008001868
+                0x0000000020000078                _sbss = .
+                0x0000000020000078                __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
+ .bss.__malloc_free_list
+                0x0000000020000078        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000078                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x000000002000007c        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x000000002000007c                __malloc_sbrk_start
+ .bss.heap_end.4194
+                0x0000000020000080        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
  *(COMMON)
-                0x0000000020000014                . = ALIGN (0x4)
-                0x0000000020000014                _ebss = .
-                0x0000000020000014                __bss_end__ = _ebss
+ COMMON         0x0000000020000084        0x9 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000020000084                __lock___atexit_recursive_mutex
+                0x0000000020000085                __lock___arc4random_mutex
+                0x0000000020000086                __lock___env_recursive_mutex
+                0x0000000020000087                __lock___sinit_recursive_mutex
+                0x0000000020000088                __lock___malloc_recursive_mutex
+                0x0000000020000089                __lock___at_quick_exit_mutex
+                0x000000002000008a                __lock___dd_hash_mutex
+                0x000000002000008b                __lock___tz_mutex
+                0x000000002000008c                __lock___sfp_recursive_mutex
+ *fill*         0x000000002000008d        0x3 
+ COMMON         0x0000000020000090        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+                0x0000000020000090                errno
+                0x0000000020000094                . = ALIGN (0x4)
+                0x0000000020000094                _ebss = .
+                0x0000000020000094                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000014      0x404 load address 0x00000000080007d0
-                0x0000000020000018                . = ALIGN (0x8)
- *fill*         0x0000000020000014        0x4 
-                [!provide]                        PROVIDE (end = .)
+                0x0000000020000094      0x404 load address 0x0000000008001868
+                0x0000000020000098                . = ALIGN (0x8)
+ *fill*         0x0000000020000094        0x4 
+                0x0000000020000098                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x0000000020000018                . = (. + _Min_Heap_Size)
-                0x0000000020000418                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000018      0x400 
-                0x0000000020000418                . = ALIGN (0x8)
+                0x0000000020000098                . = (. + _Min_Heap_Size)
+                0x0000000020000498                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000098      0x400 
+                0x0000000020000498                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -401,23 +863,87 @@ END GROUP
                 0x00000000000000fd       0x1e /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
  .ARM.attributes
                 0x000000000000011b       0x1e /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000139       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000000000000165       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x0000000000000191       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000000000001bd       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000001e9       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000215       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000241       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x000000000000026d       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x0000000000000299       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000000000002c5       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000000002f1       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000000000000031d       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x0000000000000349       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000000000000375       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x00000000000003a1       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000000000003cd       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000000000003f9       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000000000000425       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000000000000451       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x000000000000047d       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000000000004a9       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000000004d5       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x0000000000000501       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000000000000052d       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x0000000000000559       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x0000000000000585       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+ .ARM.attributes
+                0x00000000000005b1       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+ .ARM.attributes
+                0x00000000000005dd       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+ .ARM.attributes
+                0x0000000000000609       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+ .ARM.attributes
+                0x0000000000000635       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+ .ARM.attributes
+                0x0000000000000661       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x000000000000068d       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
 OUTPUT(build/blink.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0x1db0
+.debug_info     0x0000000000000000     0x1dd6
  .debug_info    0x0000000000000000      0x32f build/system_stm32f0xx.o
  .debug_info    0x000000000000032f       0xea build/stm32f0xx_it.o
- .debug_info    0x0000000000000419      0x6a7 build/main.o
- .debug_info    0x0000000000000ac0       0x22 build/startup_stm32f0xx.o
- .debug_info    0x0000000000000ae2      0x77f lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_info    0x0000000000001261      0xb4f lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_info    0x0000000000000419      0x6cd build/main.o
+ .debug_info    0x0000000000000ae6       0x22 build/startup_stm32f0xx.o
+ .debug_info    0x0000000000000b08      0x77f lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_info    0x0000000000001287      0xb4f lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
 
-.debug_abbrev   0x0000000000000000      0x912
+.debug_abbrev   0x0000000000000000      0x93c
  .debug_abbrev  0x0000000000000000      0x176 build/system_stm32f0xx.o
  .debug_abbrev  0x0000000000000176       0x66 build/stm32f0xx_it.o
- .debug_abbrev  0x00000000000001dc      0x1f6 build/main.o
- .debug_abbrev  0x00000000000003d2       0x12 build/startup_stm32f0xx.o
- .debug_abbrev  0x00000000000003e4      0x221 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_abbrev  0x0000000000000605      0x30d lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_abbrev  0x00000000000001dc      0x220 build/main.o
+ .debug_abbrev  0x00000000000003fc       0x12 build/startup_stm32f0xx.o
+ .debug_abbrev  0x000000000000040e      0x221 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_abbrev  0x000000000000062f      0x30d lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
 
 .debug_aranges  0x0000000000000000      0x298
  .debug_aranges
@@ -441,26 +967,26 @@ OUTPUT(build/blink.elf elf32-littlearm)
  .debug_ranges  0x0000000000000090       0x70 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
  .debug_ranges  0x0000000000000100      0x188 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
 
-.debug_line     0x0000000000000000     0x17c0
+.debug_line     0x0000000000000000     0x17cd
  .debug_line    0x0000000000000000      0x2a5 build/system_stm32f0xx.o
  .debug_line    0x00000000000002a5      0x199 build/stm32f0xx_it.o
- .debug_line    0x000000000000043e      0x2b8 build/main.o
- .debug_line    0x00000000000006f6       0x79 build/startup_stm32f0xx.o
- .debug_line    0x000000000000076f      0x485 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_line    0x0000000000000bf4      0xbcc lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_line    0x000000000000043e      0x2c5 build/main.o
+ .debug_line    0x0000000000000703       0x79 build/startup_stm32f0xx.o
+ .debug_line    0x000000000000077c      0x485 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_line    0x0000000000000c01      0xbcc lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
 
-.debug_str      0x0000000000000000      0xe33
+.debug_str      0x0000000000000000      0xe40
  .debug_str     0x0000000000000000      0x251 build/system_stm32f0xx.o
                                         0x2b8 (size before relaxing)
  .debug_str     0x0000000000000251       0x5c build/stm32f0xx_it.o
                                         0x1e1 (size before relaxing)
- .debug_str     0x00000000000002ad      0x432 build/main.o
-                                        0x5e2 (size before relaxing)
- .debug_str     0x00000000000006df       0x27 build/startup_stm32f0xx.o
+ .debug_str     0x00000000000002ad      0x43f build/main.o
+                                        0x5f4 (size before relaxing)
+ .debug_str     0x00000000000006ec       0x27 build/startup_stm32f0xx.o
                                          0x44 (size before relaxing)
- .debug_str     0x0000000000000706      0x27e lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_str     0x0000000000000713      0x27e lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
                                         0x4d6 (size before relaxing)
- .debug_str     0x0000000000000984      0x4af lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_str     0x0000000000000991      0x4af lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
                                         0x759 (size before relaxing)
 
 .comment        0x0000000000000000       0x75
@@ -471,14 +997,61 @@ OUTPUT(build/blink.elf elf32-littlearm)
  .comment       0x0000000000000075       0x76 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
  .comment       0x0000000000000075       0x76 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
 
-.debug_frame    0x0000000000000000      0x540
+.debug_frame    0x0000000000000000      0xdf0
  .debug_frame   0x0000000000000000       0x6c build/system_stm32f0xx.o
  .debug_frame   0x000000000000006c       0x9c build/stm32f0xx_it.o
  .debug_frame   0x0000000000000108       0x70 build/main.o
  .debug_frame   0x0000000000000178      0x110 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
  .debug_frame   0x0000000000000288      0x298 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
  .debug_frame   0x0000000000000520       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000540       0x50 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000590      0x170 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000000700       0x58 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000000758       0xb0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000808       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000828       0x30 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000858       0x9c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x00000000000008f4       0x54 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000000948       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000974       0x90 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000000a04       0x48 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000000a4c       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000a78       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000000aa4       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x0000000000000ad0       0x68 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000000b38       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000000b64       0x54 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000000000000bb8       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000000bd8       0x40 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000c18       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000c44       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000000c70       0x48 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000cb8       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000000ce4       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000000d10       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+ .debug_frame   0x0000000000000d30       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+ .debug_frame   0x0000000000000d50       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+ .debug_frame   0x0000000000000d70       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+ .debug_frame   0x0000000000000d90       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+ .debug_frame   0x0000000000000db0       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000000dd0       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
 
 .debug_loc      0x0000000000000000      0xc34
  .debug_loc     0x0000000000000000      0x3fe lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
  .debug_loc     0x00000000000003fe      0x836 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+
+.stab           0x0000000000000000       0x9c
+ .stab          0x0000000000000000       0x24 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+ .stab          0x0000000000000024       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000003c       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000054       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000006c       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(read.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000084       0x18 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(write.o)
+                                         0x24 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x14d
+ .stabstr       0x0000000000000000      0x14d /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
