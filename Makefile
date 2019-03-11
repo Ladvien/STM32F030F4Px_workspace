@@ -22,6 +22,8 @@ MAPFILE			= $(OUTPREFIX).map
 
 PERIPH			= lib/StdPeriph
 CMSIS			= lib/CMSIS
+PROLIB			= lib/project_lib
+
 
 # Include locations
 
@@ -29,6 +31,7 @@ INCLUDE			= -Iinc
 INCLUDE			+= -I$(PERIPH)/inc
 INCLUDE			+= -I$(CMSIS)/Include
 INCLUDE			+= -I$(CMSIS)/Device/ST/STM32F0xx/Include 
+INCLUDE			+= -I$(PROLIB)/include
 
 # GCC Tools
 

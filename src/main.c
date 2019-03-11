@@ -1,6 +1,8 @@
 /* Includes */
+#include "delay.h"
 #include "stm32f0xx_rcc.h"
 #include "stm32f0xx_gpio.h"
+
 
 /* Private typedef */
 /* Private define */
@@ -18,7 +20,6 @@
 /* Global variables */
 uint32_t timer = 0;
 uint8_t timerFlag =  0;
-/**
 
 /**
 **===========================================================================
@@ -28,6 +29,9 @@ uint8_t timerFlag =  0;
 
 int main(void)
 {
+
+	TM_Delay_Init(8000000);
+
 	GPIO_InitTypeDef GPIO_InitStructure;
 
 	SysTick_Config(4800); /* 0.1 ms = 100us if clock frequency 12 MHz */
@@ -67,18 +71,10 @@ int main(void)
 	{
 		/* Toggle LED1 */
 		GPIO_SetBits(LED_PORT, LED1);
-		for(int i = 0; i < 500000; i++){
-			;
-		}
-
-		printf('A');
+		TM_DelayMillis(1000);
 		index++;
 		GPIO_ResetBits(LED_PORT, LED1);
-		for(int i = 0; i < 500000; i++){
-			;;
-		}
-
+		TM_DelayMillis(1000);
 	}
-
-return 0;
+	return 0;
 }
