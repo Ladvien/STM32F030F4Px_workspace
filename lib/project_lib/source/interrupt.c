@@ -21,7 +21,7 @@ void gpio_enable_interrupt(uint16_t pin_number, uint8_t irq_number) {
 
 void gpio_clear_interrupt(uint16_t pin_number) {
     if(EXTI->PR & (1 << pin_number)) {
-        EXTI->PR |= 1 << pin_number;
+        EXTI->PR = pin_number;
     }
 }
 
