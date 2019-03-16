@@ -24,13 +24,12 @@ PERIPH			= lib/StdPeriph
 CMSIS			= lib/CMSIS
 PROLIB			= lib/project_lib
 
-
 # Include locations
 
 INCLUDE			= -Iinc
 INCLUDE			+= -I$(PERIPH)/inc
 INCLUDE			+= -I$(CMSIS)/Include
-INCLUDE			+= -I$(CMSIS)/Device/ST/STM32F0xx/Include 
+INCLUDE			+= -I$(CMSIS)/Device/ST/STM32F0xx/Include
 INCLUDE			+= -I$(PROLIB)/include
 
 # GCC Tools
@@ -74,14 +73,14 @@ LDFLAGS			+= -Wl,--gc-sections,-Map=$(MAPFILE) # Remove unused functions
 LDFLAGS			+= -nostartfiles
 LDFLAGS			+= -specs=nosys.specs
 LDFLAGS			+= -lrdimon
-LDFLAGS			+= -lc 
+LDFLAGS 	 	+= -static
 LDFLAGS			+= -specs=rdimon.specs 
 LDFLAGS			+= -specs=nano.specs 
  
 
 # Libs need to be at the end
 
-LDLIBS			+= -Llib -lstm32f0_periph
+LDLIBS			+= -Llib -lstm32f0_periph 
 
 # Terminal Colors
 
@@ -158,7 +157,7 @@ setup:
 	@mkdir -p $(BUILDDIR)
 
 build: setup $(COBJS) $(AOBJS)
-	@echo -e '$(CYAN_COLOR)LINKING:\t$(BLUE_COLOR)$(COBJS)$(AOBJS)$(NO_COLOR)'
+	@echo -e 'LINKING:	$(COBJS)$(AOBJS)'
 	$(LD) $(CFLAGS) $(LDFLAGS) -o $(ELFFILE) $(COBJS) $(AOBJS) $(LDLIBS)
 	@$(OBJCPY) -O ihex $(ELFFILE) $(HEXFILE)
 	@$(OBJCPY) -O binary $(ELFFILE) $(BINFILE)
@@ -175,7 +174,7 @@ erase:
 debug: _startopenocd _gdb _killopenocd
 
 size: build
-	@echo -e '$(CYAN_COLOR)SIZE:\t\t$(BLUE_COLOR)$(ELFFILE)$(NO_COLOR)'
+	@echo -e 'SIZE:\t\t$(BLUE_COLOR)$(ELFFILE)'
 	@$(SIZE) $(ELFFILE)
 
 _startopenocd: $(BIN)
@@ -191,10 +190,10 @@ _gdb:
 ########### Compile / Assemble
 
 $(COBJS): $(BUILDDIR)/%.o : %.c
-	@echo -e '$(CYAN_COLOR)COMPILING:\t$(BLUE_COLOR)$<$(NO_COLOR)'	
+	@echo -e 'COMPILING:'	
 	$(CC) $(CFLAGS) $(DEFS) -c $< -o $@
 
 $(AOBJS): $(BUILDDIR)/%.o : %.s
-	@echo -e '$(CYAN_COLOR)ASSEMBLING:\t$(BLUE_COLOR)$<$(NO_COLOR)'
+	@echo -e 'ASSEMBLING:'
 	$(CC) $(AFLAGS) $(DEFS) -c $< -o $@
 
