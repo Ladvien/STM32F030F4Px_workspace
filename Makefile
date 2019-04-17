@@ -196,4 +196,3 @@ $(COBJS): $(BUILDDIR)/%.o : %.c
 $(AOBJS): $(BUILDDIR)/%.o : %.s
 	@echo -e 'ASSEMBLING:'
 	$(CC) $(AFLAGS) $(DEFS) -c $< -o $@
-
