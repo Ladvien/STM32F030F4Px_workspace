@@ -7,13 +7,12 @@
 
 #define MAX_BUFFER_SIZE 256
 
-typedef struct Buffer_st
+typedef struct TxRxBuffer
 {
-	int size;
-	uint8_t data[MAX_BUFFER_SIZE];
-} Buffer_st;
+	uint16_t *data;
+} TxRxBuffer;
 
-Buffer_st receivedDataUART1;
+TxRxBuffer rxPacket;
 /**
 **===========================================================================
 ** Abstract: main program
@@ -24,8 +23,8 @@ volatile int key_pressed = 0;
  
 void configure_button(GPIO_InitTypeDef GPIO_InitStructure, EXTI_InitTypeDef EXTI_InitStructure);
 void USART1_Init(uint32_t baudRate);
-void sendDataUART1(Buffer_st buffer);
-Buffer_st stringToBuffer(const char* str) ;
+void sendDataUART1(TxRxBuffer buffer);
+// void rxFullPacket(TxRxBuffer packet);
 
 int main(void)
 {
@@ -33,28 +32,20 @@ int main(void)
 	TM_Delay_Init(8000000);
 
 	while(1) {
-		const char* test = "Hello\n";
-		Buffer_st buffer = stringToBuffer(test);
-		// Buffer_st buffer = {6, "Hello\n"};
+		TxRxBuffer tx_packet;
+		tx_packet.data = "Hello\n";
 		USART1_Init(9600);
-		sendDataUART1(buffer);
+		// sendDataUART1(tx_packet);
 		TM_DelayMillis(1000);
 	}
 	return 0;
 }
 
-void resetReceivedDataBufferUART1(void)
+void sendDataUART1(TxRxBuffer packet)
 {
-	receivedDataUART1.size = 0;
-	memset(receivedDataUART1.data, MAX_BUFFER_SIZE, 0);
-}
-
-void sendDataUART1(Buffer_st buffer)
-{
-	uint8_t cpt;
-	for (cpt = 0; cpt < buffer.size; cpt++)
-	{
-		USART_SendData(USART1, buffer.data[cpt]);
+	for ( ; *packet.data != '\0'; packet.data++) {
+		USART_SendData(USART1, *packet.data);
+		TM_DelayMicros(500);
 		//Loop until the end of transmission
 		while(USART_GetFlagStatus(USART1,USART_FLAG_TXE)!=SET);
 	}
@@ -64,7 +55,11 @@ void USART1_IRQHandler(void)
 {
 	if (USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
 	{
-		receivedDataUART1.data[receivedDataUART1.size++] = USART_ReceiveData(USART1);
+		rxPacket.data = USART_ReceiveData(USART1);
+		if (rxPacket.data == '\n') {
+			rxFullPacket(rxPacket);
+		}
+		rxPacket.data++;
 	}
 }
 
@@ -87,6 +82,12 @@ void USART1_Init(uint32_t baudRate)
 	NVIC_InitStructure.NVIC_IRQChannelPriority = 0;
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
+
+	/* This was missing from the original code.
+	   It turns on the USART interrupts; the NVIC_Init() tells
+	   stack what interrupts to setup and how.
+	 */
+	NVIC_EnableIRQ(USART1_IRQn);
 	
 	//UART init
 	USART_InitStructure.USART_BaudRate = baudRate;
@@ -122,10 +123,10 @@ void USART1_Init(uint32_t baudRate)
 	/* Enable USART */
 	USART_Cmd(USART1, ENABLE);
 	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
-	resetReceivedDataBufferUART1();
 }
 
-Buffer_st stringToBuffer(const char* str) {
-	Buffer_st buffer = {6, *str};
-	return buffer;
+void rxFullPacket(TxRxBuffer packet) {
+	TxRxBuffer tmp;
+	tmp.data = packet.data;
+	sendDataUART1(tmp);
 }
