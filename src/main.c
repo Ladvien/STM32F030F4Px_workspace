@@ -1,18 +1,20 @@
 /* Includes */
 #include "stm32f0xx_gpio.h"
-#include "/home/ladvien/STM32F030F4Px_workspace/lib/project_lib/source/interrupt.c"
-#include "/home/ladvien/STM32F030F4Px_workspace/lib/project_lib/source/delay.c"
+#include "/Users/caseybrittain/STM32F0/lib/project_lib/source/interrupt.c"
+#include "/Users/caseybrittain/STM32F0/lib/project_lib/source/delay.c"
 #include <string.h>
-
 
 #define MAX_BUFFER_SIZE 256
 
-typedef struct TxRxBuffer
+typedef struct Buffer
 {
-	uint16_t *data;
-} TxRxBuffer;
+	int length;
+	uint8_t data[MAX_BUFFER_SIZE];
+} Buffer;
+static const struct Buffer EmptyBuffer;
+Buffer rxBuffer;
 
-TxRxBuffer rxPacket;
+
 /**
 **===========================================================================
 ** Abstract: main program
@@ -23,44 +25,48 @@ volatile int key_pressed = 0;
  
 void configure_button(GPIO_InitTypeDef GPIO_InitStructure, EXTI_InitTypeDef EXTI_InitStructure);
 void USART1_Init(uint32_t baudRate);
-void sendDataUART1(TxRxBuffer buffer);
-// void rxFullPacket(TxRxBuffer packet);
+//////////////////////////////////////////////////////////////////////////////
+///
+/// \b _write
+///
+/// @brief writes string to uart
+///
+/// @param[in] fd file to write -- not used
+/// @param[in] s pointer to string to write
+/// @param[in] len length of string to write
+/// @return number of chars written
+///
+//////////////////////////////////////////////////////////////////////////////
+int write(uint8_t *data, int length);
+void clearAllUSARTIRQFlags();
+void rxFullPacket(Buffer buffer);
+void receivedUSARTData(Buffer buffer);
 
 int main(void)
 {
 	// Set the delay to system clock.
 	TM_Delay_Init(8000000);
+	USART1_Init(9600);
 
 	while(1) {
-		TxRxBuffer tx_packet;
-		tx_packet.data = "Hello\n";
-		USART1_Init(9600);
-		// sendDataUART1(tx_packet);
+		// write((uint8_t*)"Hello\n", 6);
+
 		TM_DelayMillis(1000);
 	}
 	return 0;
 }
 
-void sendDataUART1(TxRxBuffer packet)
-{
-	for ( ; *packet.data != '\0'; packet.data++) {
-		USART_SendData(USART1, *packet.data);
-		TM_DelayMicros(500);
-		//Loop until the end of transmission
-		while(USART_GetFlagStatus(USART1,USART_FLAG_TXE)!=SET);
-	}
-}
-
 void USART1_IRQHandler(void)
 {
+	// TODO: Handle buffer overrun.
 	if (USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
 	{
-		rxPacket.data = USART_ReceiveData(USART1);
-		if (rxPacket.data == '\n') {
-			rxFullPacket(rxPacket);
-		}
-		rxPacket.data++;
+		rxBuffer.data[rxBuffer.length] = USART_ReceiveData(USART1);
+		rxBuffer.length++;
 	}
+	// TODO: Better flag handling.
+	clearAllUSARTIRQFlags();
+	receivedUSARTData(rxBuffer);
 }
 
 /*****************************************************
@@ -125,8 +131,36 @@ void USART1_Init(uint32_t baudRate)
 	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
 }
 
-void rxFullPacket(TxRxBuffer packet) {
-	TxRxBuffer tmp;
-	tmp.data = packet.data;
-	sendDataUART1(tmp);
+void receivedUSARTData(Buffer buffer) {
+	if (buffer.data[buffer.length - 1] == '\r') {
+		rxFullPacket(buffer);
+	}
+}
+
+void rxFullPacket(Buffer buffer) {
+	write(buffer.data, buffer.length);
+	rxBuffer = EmptyBuffer;
+}
+
+int write(uint8_t *data, int length) {
+	int i = 0;
+	for (; i < length; i++) {
+		USART_SendData(USART1, data[i]);
+		while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) != SET);
+	}
+	return i;
+}
+
+void clearAllUSARTIRQFlags(){
+	USART_ClearFlag(USART1, USART_IT_WU);
+	USART_ClearFlag(USART1, USART_IT_CM);
+	USART_ClearFlag(USART1, USART_IT_EOB);
+	USART_ClearFlag(USART1, USART_IT_RTO);
+	USART_ClearFlag(USART1, USART_IT_CTS);
+	USART_ClearFlag(USART1, USART_IT_LBD);
+	USART_ClearFlag(USART1, USART_IT_TXE);
+	// USART_ClearFlag(USART1, USART_IT_RXNE);
+	USART_ClearFlag(USART1, USART_IT_IDLE);
+	USART_ClearFlag(USART1, USART_IT_PE);
+	USART_ClearFlag(USART1, USART_IT_ERR);
 }

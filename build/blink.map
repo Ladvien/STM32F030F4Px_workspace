@@ -8,18 +8,20 @@ lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
                               build/main.o (RCC_GetClocksFreq)
 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
                               build/main.o (USART_Init)
-/home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
                               build/system_stm32f0xx.o (__aeabi_uidiv)
-/home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
                               lib/libstm32f0_periph.a(stm32f0xx_rcc.o) (__aeabi_idiv)
-/home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                              /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                              build/main.o (memcpy)
 
 Allocating common symbols
 Common symbol       size              file
 
-rxPacket            0x4               build/main.o
 multiplier          0x4               build/main.o
+rxBuffer            0x104             build/main.o
 _multiplier         0x4               build/main.o
 
 Discarded input sections
@@ -45,6 +47,8 @@ Discarded input sections
                 0x0000000000000000       0x40 build/main.o
  .text.gpio_clear_interrupt
                 0x0000000000000000       0x34 build/main.o
+ .text.TM_DelayMicros
+                0x0000000000000000       0x2c build/main.o
  .bss.key_pressed
                 0x0000000000000000        0x4 build/main.o
  .text          0x0000000000000000       0x14 build/startup_stm32f0xx.o
@@ -251,20 +255,21 @@ Discarded input sections
                 0x0000000000000000       0x14 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
  .text.USART_OverrunDetectionConfig
                 0x0000000000000000       0x14 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
- .text.USART_ClearFlag
-                0x0000000000000000        0x4 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
  .text.USART_ClearITPendingBit
                 0x0000000000000000        0xc lib/libstm32f0_periph.a(stm32f0xx_usart.o)
- .data          0x0000000000000000        0x0 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .bss           0x0000000000000000        0x0 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .text          0x0000000000000000      0x1d4 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .data          0x0000000000000000        0x0 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .bss           0x0000000000000000        0x0 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .debug_frame   0x0000000000000000       0x20 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x1d4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x0000000000000000       0x1e /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .data          0x0000000000000000        0x0 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000000       0x1e /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
 
 Memory Configuration
 
@@ -275,7 +280,7 @@ ROM              0x0000000008000000 0x0000000000004000 xr
 
 Linker script and memory map
 
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
 LOAD build/system_stm32f0xx.o
 LOAD build/stm32f0xx_it.o
 LOAD build/main.o
@@ -283,25 +288,25 @@ LOAD build/startup_stm32f0xx.o
 LOAD build/delay.o
 LOAD lib/libstm32f0_periph.a
 START GROUP
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
 END GROUP
 START GROUP
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
 END GROUP
 START GROUP
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
 END GROUP
 START GROUP
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
-LOAD /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/librdimon_nano.a
+LOAD /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
 END GROUP
                 0x0000000020001000                _estack = 0x20001000
                 0x0000000000000000                _Min_Heap_Size = 0x0
@@ -314,14 +319,14 @@ END GROUP
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c4                . = ALIGN (0x4)
 
-.text           0x00000000080000c4      0x938
+.text           0x00000000080000c4      0xa68
                 0x00000000080000c4                . = ALIGN (0x4)
  *(.text)
- .text          0x00000000080000c4      0x114 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .text          0x00000000080000c4      0x114 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
                 0x00000000080000c4                __udivsi3
                 0x00000000080000c4                __aeabi_uidiv
                 0x00000000080001d0                __aeabi_uidivmod
- .text          0x00000000080001d8        0x4 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000080001d8        0x4 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
                 0x00000000080001d8                __aeabi_ldiv0
                 0x00000000080001d8                __aeabi_idiv0
  *(.text*)
@@ -351,167 +356,175 @@ END GROUP
  .text.TM_Delay_Init
                 0x00000000080003a4       0x34 build/main.o
                 0x00000000080003a4                TM_Delay_Init
- .text.TM_DelayMicros
-                0x00000000080003d8       0x2c build/main.o
-                0x00000000080003d8                TM_DelayMicros
  .text.TM_DelayMillis
-                0x0000000008000404       0x38 build/main.o
-                0x0000000008000404                TM_DelayMillis
- .text.main     0x000000000800043c       0x30 build/main.o
-                0x000000000800043c                main
- .text.sendDataUART1
-                0x000000000800046c       0x50 build/main.o
-                0x000000000800046c                sendDataUART1
+                0x00000000080003d8       0x38 build/main.o
+                0x00000000080003d8                TM_DelayMillis
+ .text.main     0x0000000008000410       0x28 build/main.o
+                0x0000000008000410                main
  .text.USART1_IRQHandler
-                0x00000000080004bc       0x54 build/main.o
-                0x00000000080004bc                USART1_IRQHandler
+                0x0000000008000438       0x70 build/main.o
+                0x0000000008000438                USART1_IRQHandler
  .text.USART1_Init
-                0x0000000008000510       0xe8 build/main.o
-                0x0000000008000510                USART1_Init
+                0x00000000080004a8       0xe8 build/main.o
+                0x00000000080004a8                USART1_Init
+ .text.receivedUSARTData
+                0x0000000008000590       0x50 build/main.o
+                0x0000000008000590                receivedUSARTData
  .text.rxFullPacket
-                0x00000000080005f8       0x1c build/main.o
-                0x00000000080005f8                rxFullPacket
+                0x00000000080005e0       0x4c build/main.o
+                0x00000000080005e0                rxFullPacket
+ .text.write    0x000000000800062c       0x54 build/main.o
+                0x000000000800062c                write
+ .text.clearAllUSARTIRQFlags
+                0x0000000008000680       0xac build/main.o
+                0x0000000008000680                clearAllUSARTIRQFlags
  .text.Reset_Handler
-                0x0000000008000614       0x4c build/startup_stm32f0xx.o
-                0x0000000008000614                Reset_Handler
+                0x000000000800072c       0x4c build/startup_stm32f0xx.o
+                0x000000000800072c                Reset_Handler
  .text.Default_Handler
-                0x0000000008000660        0x2 build/startup_stm32f0xx.o
-                0x0000000008000660                TIM1_CC_IRQHandler
-                0x0000000008000660                ADC1_COMP_IRQHandler
-                0x0000000008000660                PVD_IRQHandler
-                0x0000000008000660                I2C1_IRQHandler
-                0x0000000008000660                SPI1_IRQHandler
-                0x0000000008000660                TIM6_DAC_IRQHandler
-                0x0000000008000660                EXTI2_3_IRQHandler
-                0x0000000008000660                I2C2_IRQHandler
-                0x0000000008000660                TIM17_IRQHandler
-                0x0000000008000660                RTC_IRQHandler
-                0x0000000008000660                TIM16_IRQHandler
-                0x0000000008000660                TIM3_IRQHandler
-                0x0000000008000660                EXTI4_15_IRQHandler
-                0x0000000008000660                RCC_IRQHandler
-                0x0000000008000660                DMA1_Channel1_IRQHandler
-                0x0000000008000660                Default_Handler
-                0x0000000008000660                CEC_IRQHandler
-                0x0000000008000660                TIM14_IRQHandler
-                0x0000000008000660                DMA1_Channel4_5_IRQHandler
-                0x0000000008000660                TIM15_IRQHandler
-                0x0000000008000660                EXTI0_1_IRQHandler
-                0x0000000008000660                SPI2_IRQHandler
-                0x0000000008000660                TS_IRQHandler
-                0x0000000008000660                WWDG_IRQHandler
-                0x0000000008000660                TIM2_IRQHandler
-                0x0000000008000660                DMA1_Channel2_3_IRQHandler
-                0x0000000008000660                USART2_IRQHandler
-                0x0000000008000660                FLASH_IRQHandler
-                0x0000000008000660                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x0000000008000662        0x2 
+                0x0000000008000778        0x2 build/startup_stm32f0xx.o
+                0x0000000008000778                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x0000000008000778                ADC1_COMP_IRQHandler
+                0x0000000008000778                PVD_IRQHandler
+                0x0000000008000778                I2C1_IRQHandler
+                0x0000000008000778                SPI1_IRQHandler
+                0x0000000008000778                TIM6_DAC_IRQHandler
+                0x0000000008000778                EXTI2_3_IRQHandler
+                0x0000000008000778                I2C2_IRQHandler
+                0x0000000008000778                TIM17_IRQHandler
+                0x0000000008000778                RTC_IRQHandler
+                0x0000000008000778                TIM16_IRQHandler
+                0x0000000008000778                TIM3_IRQHandler
+                0x0000000008000778                EXTI4_15_IRQHandler
+                0x0000000008000778                RCC_IRQHandler
+                0x0000000008000778                DMA1_Channel1_IRQHandler
+                0x0000000008000778                Default_Handler
+                0x0000000008000778                CEC_IRQHandler
+                0x0000000008000778                TIM14_IRQHandler
+                0x0000000008000778                DMA1_Channel4_5_IRQHandler
+                0x0000000008000778                TIM15_IRQHandler
+                0x0000000008000778                EXTI0_1_IRQHandler
+                0x0000000008000778                SPI2_IRQHandler
+                0x0000000008000778                TS_IRQHandler
+                0x0000000008000778                WWDG_IRQHandler
+                0x0000000008000778                TIM2_IRQHandler
+                0x0000000008000778                DMA1_Channel2_3_IRQHandler
+                0x0000000008000778                USART2_IRQHandler
+                0x0000000008000778                FLASH_IRQHandler
+                0x0000000008000778                TIM1_CC_IRQHandler
+ *fill*         0x000000000800077a        0x2 
  .text.GPIO_Init
-                0x0000000008000664       0xb0 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
-                0x0000000008000664                GPIO_Init
+                0x000000000800077c       0xb0 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+                0x000000000800077c                GPIO_Init
  .text.GPIO_PinAFConfig
-                0x0000000008000714       0x24 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
-                0x0000000008000714                GPIO_PinAFConfig
+                0x000000000800082c       0x24 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+                0x000000000800082c                GPIO_PinAFConfig
  .text.NVIC_Init
-                0x0000000008000738       0x50 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
-                0x0000000008000738                NVIC_Init
+                0x0000000008000850       0x50 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+                0x0000000008000850                NVIC_Init
  .text.RCC_GetClocksFreq
-                0x0000000008000788      0x104 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
-                0x0000000008000788                RCC_GetClocksFreq
+                0x00000000080008a0      0x104 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+                0x00000000080008a0                RCC_GetClocksFreq
  .text.RCC_AHBPeriphClockCmd
-                0x000000000800088c       0x18 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
-                0x000000000800088c                RCC_AHBPeriphClockCmd
+                0x00000000080009a4       0x18 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+                0x00000000080009a4                RCC_AHBPeriphClockCmd
  .text.RCC_APB2PeriphClockCmd
-                0x00000000080008a4       0x18 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
-                0x00000000080008a4                RCC_APB2PeriphClockCmd
+                0x00000000080009bc       0x18 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+                0x00000000080009bc                RCC_APB2PeriphClockCmd
  .text.USART_Init
-                0x00000000080008bc       0x9c lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x00000000080008bc                USART_Init
+                0x00000000080009d4       0x9c lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x00000000080009d4                USART_Init
  .text.USART_Cmd
-                0x0000000008000958       0x14 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x0000000008000958                USART_Cmd
+                0x0000000008000a70       0x14 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000a70                USART_Cmd
  .text.USART_SendData
-                0x000000000800096c        0x8 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x000000000800096c                USART_SendData
+                0x0000000008000a84        0x8 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000a84                USART_SendData
  .text.USART_ReceiveData
-                0x0000000008000974        0x8 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x0000000008000974                USART_ReceiveData
+                0x0000000008000a8c        0x8 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000a8c                USART_ReceiveData
  .text.USART_ITConfig
-                0x000000000800097c       0x34 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x000000000800097c                USART_ITConfig
+                0x0000000008000a94       0x34 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000a94                USART_ITConfig
  .text.USART_GetFlagStatus
-                0x00000000080009b0        0xc lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x00000000080009b0                USART_GetFlagStatus
+                0x0000000008000ac8        0xc lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000ac8                USART_GetFlagStatus
+ .text.USART_ClearFlag
+                0x0000000008000ad4        0x4 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000ad4                USART_ClearFlag
  .text.USART_GetITStatus
-                0x00000000080009bc       0x40 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
-                0x00000000080009bc                USART_GetITStatus
+                0x0000000008000ad8       0x40 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000008000ad8                USART_GetITStatus
+ .text.memcpy   0x0000000008000b18       0x12 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008000b18                memcpy
  *(.glue_7)
- .glue_7        0x00000000080009fc        0x0 linker stubs
+ .glue_7        0x0000000008000b2a        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080009fc        0x0 linker stubs
+ .glue_7t       0x0000000008000b2a        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x00000000080009fc                . = ALIGN (0x4)
-                0x00000000080009fc                _etext = .
+                0x0000000008000b2c                . = ALIGN (0x4)
+ *fill*         0x0000000008000b2a        0x2 
+                0x0000000008000b2c                _etext = .
 
-.vfp11_veneer   0x00000000080009fc        0x0
- .vfp11_veneer  0x00000000080009fc        0x0 linker stubs
+.vfp11_veneer   0x0000000008000b2c        0x0
+ .vfp11_veneer  0x0000000008000b2c        0x0 linker stubs
 
-.v4_bx          0x00000000080009fc        0x0
- .v4_bx         0x00000000080009fc        0x0 linker stubs
+.v4_bx          0x0000000008000b2c        0x0
+ .v4_bx         0x0000000008000b2c        0x0 linker stubs
 
-.iplt           0x00000000080009fc        0x0
- .iplt          0x00000000080009fc        0x0 build/system_stm32f0xx.o
+.iplt           0x0000000008000b2c        0x0
+ .iplt          0x0000000008000b2c        0x0 build/system_stm32f0xx.o
 
-.rodata         0x00000000080009fc        0x8
-                0x00000000080009fc                . = ALIGN (0x4)
+.rodata         0x0000000008000b2c      0x104
+                0x0000000008000b2c                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x00000000080009fc        0x7 build/main.o
  *(.rodata*)
-                0x0000000008000a04                . = ALIGN (0x4)
- *fill*         0x0000000008000a03        0x1 
+ .rodata.EmptyBuffer
+                0x0000000008000b2c      0x104 build/main.o
+                0x0000000008000c30                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008000a04        0x0
- .rel.iplt      0x0000000008000a04        0x0 build/system_stm32f0xx.o
+.rel.dyn        0x0000000008000c30        0x0
+ .rel.iplt      0x0000000008000c30        0x0 build/system_stm32f0xx.o
 
-.ARM.extab      0x0000000008000a04        0x0
-                0x0000000008000a04                . = ALIGN (0x4)
+.ARM.extab      0x0000000008000c30        0x0
+                0x0000000008000c30                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008000a04                . = ALIGN (0x4)
+                0x0000000008000c30                . = ALIGN (0x4)
 
-.ARM            0x0000000008000a04        0x0
-                0x0000000008000a04                . = ALIGN (0x4)
-                0x0000000008000a04                __exidx_start = .
+.ARM            0x0000000008000c30        0x0
+                0x0000000008000c30                . = ALIGN (0x4)
+                0x0000000008000c30                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008000a04                __exidx_end = .
-                0x0000000008000a04                . = ALIGN (0x4)
+                0x0000000008000c30                __exidx_end = .
+                0x0000000008000c30                . = ALIGN (0x4)
 
-.preinit_array  0x0000000008000a04        0x0
-                0x0000000008000a04                . = ALIGN (0x4)
+.preinit_array  0x0000000008000c30        0x0
+                0x0000000008000c30                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
                 [!provide]                        PROVIDE (__preinit_array_end = .)
-                0x0000000008000a04                . = ALIGN (0x4)
+                0x0000000008000c30                . = ALIGN (0x4)
 
-.init_array     0x0000000008000a04        0x0
-                0x0000000008000a04                . = ALIGN (0x4)
+.init_array     0x0000000008000c30        0x0
+                0x0000000008000c30                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
                 [!provide]                        PROVIDE (__init_array_end = .)
-                0x0000000008000a04                . = ALIGN (0x4)
+                0x0000000008000c30                . = ALIGN (0x4)
 
-.fini_array     0x0000000008000a04        0x0
-                0x0000000008000a04                . = ALIGN (0x4)
+.fini_array     0x0000000008000c30        0x0
+                0x0000000008000c30                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008000a04                . = ALIGN (0x4)
-                0x0000000008000a04                _sidata = LOADADDR (.data)
+                0x0000000008000c30                . = ALIGN (0x4)
+                0x0000000008000c30                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x10 load address 0x0000000008000a04
+.data           0x0000000020000000       0x10 load address 0x0000000008000c30
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -521,34 +534,34 @@ END GROUP
                 0x0000000020000010                . = ALIGN (0x4)
                 0x0000000020000010                _edata = .
 
-.igot.plt       0x0000000020000010        0x0 load address 0x0000000008000a14
+.igot.plt       0x0000000020000010        0x0 load address 0x0000000008000c40
  .igot.plt      0x0000000020000010        0x0 build/system_stm32f0xx.o
                 0x0000000020000010                . = ALIGN (0x4)
 
-.bss            0x0000000020000010        0xc load address 0x0000000008000a14
+.bss            0x0000000020000010      0x10c load address 0x0000000008000c40
                 0x0000000020000010                _sbss = .
                 0x0000000020000010                __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
  *(COMMON)
- COMMON         0x0000000020000010        0xc build/main.o
-                0x0000000020000010                rxPacket
-                0x0000000020000014                multiplier
-                0x0000000020000018                _multiplier
-                0x000000002000001c                . = ALIGN (0x4)
-                0x000000002000001c                _ebss = .
-                0x000000002000001c                __bss_end__ = _ebss
+ COMMON         0x0000000020000010      0x10c build/main.o
+                0x0000000020000010                multiplier
+                0x0000000020000014                rxBuffer
+                0x0000000020000118                _multiplier
+                0x000000002000011c                . = ALIGN (0x4)
+                0x000000002000011c                _ebss = .
+                0x000000002000011c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x000000002000001c      0x404 load address 0x0000000008000a14
-                0x0000000020000020                . = ALIGN (0x8)
- *fill*         0x000000002000001c        0x4 
+                0x000000002000011c      0x404 load address 0x0000000008000c40
+                0x0000000020000120                . = ALIGN (0x8)
+ *fill*         0x000000002000011c        0x4 
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x0000000020000020                . = (. + _Min_Heap_Size)
-                0x0000000020000420                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000020      0x400 
-                0x0000000020000420                . = ALIGN (0x8)
+                0x0000000020000120                . = (. + _Min_Heap_Size)
+                0x0000000020000520                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000120      0x400 
+                0x0000000020000520                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -575,85 +588,87 @@ END GROUP
  .ARM.attributes
                 0x0000000000000129       0x2c lib/libstm32f0_periph.a(stm32f0xx_usart.o)
  .ARM.attributes
-                0x0000000000000155       0x1e /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x0000000000000155       0x1e /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x0000000000000173       0x1e /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000173       0x1e /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000191       0x2c /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
 OUTPUT(build/blink.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0x3d85
+.debug_info     0x0000000000000000     0x3dc8
  .debug_info    0x0000000000000000      0x32f build/system_stm32f0xx.o
  .debug_info    0x000000000000032f       0xea build/stm32f0xx_it.o
- .debug_info    0x0000000000000419     0x12e1 build/main.o
- .debug_info    0x00000000000016fa       0x22 build/startup_stm32f0xx.o
- .debug_info    0x000000000000171c      0x77f lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_info    0x0000000000001e9b      0x398 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
- .debug_info    0x0000000000002233      0xb4f lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
- .debug_info    0x0000000000002d82     0x1003 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+ .debug_info    0x0000000000000419     0x1324 build/main.o
+ .debug_info    0x000000000000173d       0x22 build/startup_stm32f0xx.o
+ .debug_info    0x000000000000175f      0x77f lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_info    0x0000000000001ede      0x398 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+ .debug_info    0x0000000000002276      0xb4f lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_info    0x0000000000002dc5     0x1003 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
 
-.debug_abbrev   0x0000000000000000      0xdcb
+.debug_abbrev   0x0000000000000000      0xdf8
  .debug_abbrev  0x0000000000000000      0x176 build/system_stm32f0xx.o
  .debug_abbrev  0x0000000000000176       0x66 build/stm32f0xx_it.o
- .debug_abbrev  0x00000000000001dc      0x329 build/main.o
- .debug_abbrev  0x0000000000000505       0x12 build/startup_stm32f0xx.o
- .debug_abbrev  0x0000000000000517      0x221 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_abbrev  0x0000000000000738      0x177 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
- .debug_abbrev  0x00000000000008af      0x30d lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
- .debug_abbrev  0x0000000000000bbc      0x20f lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+ .debug_abbrev  0x00000000000001dc      0x356 build/main.o
+ .debug_abbrev  0x0000000000000532       0x12 build/startup_stm32f0xx.o
+ .debug_abbrev  0x0000000000000544      0x221 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_abbrev  0x0000000000000765      0x177 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+ .debug_abbrev  0x00000000000008dc      0x30d lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_abbrev  0x0000000000000be9      0x20f lib/libstm32f0_periph.a(stm32f0xx_usart.o)
 
-.debug_aranges  0x0000000000000000      0x4b0
+.debug_aranges  0x0000000000000000      0x4c0
  .debug_aranges
                 0x0000000000000000       0x30 build/system_stm32f0xx.o
  .debug_aranges
                 0x0000000000000030       0x40 build/stm32f0xx_it.o
  .debug_aranges
-                0x0000000000000070       0x78 build/main.o
+                0x0000000000000070       0x88 build/main.o
  .debug_aranges
-                0x00000000000000e8       0x28 build/startup_stm32f0xx.o
+                0x00000000000000f8       0x28 build/startup_stm32f0xx.o
  .debug_aranges
-                0x0000000000000110       0x80 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+                0x0000000000000120       0x80 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
  .debug_aranges
-                0x0000000000000190       0x30 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+                0x00000000000001a0       0x30 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
  .debug_aranges
-                0x00000000000001c0      0x150 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+                0x00000000000001d0      0x150 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
  .debug_aranges
-                0x0000000000000310      0x1a0 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+                0x0000000000000320      0x1a0 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
 
-.debug_ranges   0x0000000000000000      0x480
+.debug_ranges   0x0000000000000000      0x490
  .debug_ranges  0x0000000000000000       0x20 build/system_stm32f0xx.o
  .debug_ranges  0x0000000000000020       0x30 build/stm32f0xx_it.o
- .debug_ranges  0x0000000000000050       0x68 build/main.o
- .debug_ranges  0x00000000000000b8       0x20 build/startup_stm32f0xx.o
- .debug_ranges  0x00000000000000d8       0x70 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_ranges  0x0000000000000148       0x20 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
- .debug_ranges  0x0000000000000168      0x188 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
- .debug_ranges  0x00000000000002f0      0x190 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+ .debug_ranges  0x0000000000000050       0x78 build/main.o
+ .debug_ranges  0x00000000000000c8       0x20 build/startup_stm32f0xx.o
+ .debug_ranges  0x00000000000000e8       0x70 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_ranges  0x0000000000000158       0x20 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+ .debug_ranges  0x0000000000000178      0x188 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_ranges  0x0000000000000300      0x190 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
 
-.debug_line     0x0000000000000000     0x2888
+.debug_line     0x0000000000000000     0x28bb
  .debug_line    0x0000000000000000      0x2a5 build/system_stm32f0xx.o
  .debug_line    0x00000000000002a5      0x199 build/stm32f0xx_it.o
- .debug_line    0x000000000000043e      0x50a build/main.o
- .debug_line    0x0000000000000948       0x79 build/startup_stm32f0xx.o
- .debug_line    0x00000000000009c1      0x485 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_line    0x0000000000000e46      0x210 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
- .debug_line    0x0000000000001056      0xbcc lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
- .debug_line    0x0000000000001c22      0xc66 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+ .debug_line    0x000000000000043e      0x53d build/main.o
+ .debug_line    0x000000000000097b       0x79 build/startup_stm32f0xx.o
+ .debug_line    0x00000000000009f4      0x485 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_line    0x0000000000000e79      0x210 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+ .debug_line    0x0000000000001089      0xbcc lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_line    0x0000000000001c55      0xc66 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
 
-.debug_str      0x0000000000000000     0x1b45
+.debug_str      0x0000000000000000     0x1b3e
  .debug_str     0x0000000000000000      0x251 build/system_stm32f0xx.o
                                         0x2b8 (size before relaxing)
  .debug_str     0x0000000000000251       0x5c build/stm32f0xx_it.o
                                         0x1e1 (size before relaxing)
- .debug_str     0x00000000000002ad      0xadc build/main.o
-                                        0xcb0 (size before relaxing)
- .debug_str     0x0000000000000d89       0x27 build/startup_stm32f0xx.o
+ .debug_str     0x00000000000002ad      0xad5 build/main.o
+                                        0xccc (size before relaxing)
+ .debug_str     0x0000000000000d82       0x27 build/startup_stm32f0xx.o
                                          0x44 (size before relaxing)
- .debug_str     0x0000000000000db0      0x27e lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_str     0x0000000000000da9      0x27e lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
                                         0x4d6 (size before relaxing)
- .debug_str     0x000000000000102e       0xd6 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+ .debug_str     0x0000000000001027       0xd6 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
                                         0x335 (size before relaxing)
- .debug_str     0x0000000000001104      0x402 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_str     0x00000000000010fd      0x402 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
                                         0x759 (size before relaxing)
- .debug_str     0x0000000000001506      0x63f lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+ .debug_str     0x00000000000014ff      0x63f lib/libstm32f0_periph.a(stm32f0xx_usart.o)
                                         0x9c7 (size before relaxing)
 
 .comment        0x0000000000000000       0x75
@@ -666,15 +681,16 @@ OUTPUT(build/blink.elf elf32-littlearm)
  .comment       0x0000000000000075       0x76 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
  .comment       0x0000000000000075       0x76 lib/libstm32f0_periph.a(stm32f0xx_usart.o)
 
-.debug_frame    0x0000000000000000      0x9f8
+.debug_frame    0x0000000000000000      0xa6c
  .debug_frame   0x0000000000000000       0x6c build/system_stm32f0xx.o
  .debug_frame   0x000000000000006c       0x9c build/stm32f0xx_it.o
- .debug_frame   0x0000000000000108      0x18c build/main.o
- .debug_frame   0x0000000000000294      0x110 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
- .debug_frame   0x00000000000003a4       0x50 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
- .debug_frame   0x00000000000003f4      0x298 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
- .debug_frame   0x000000000000068c      0x34c lib/libstm32f0_periph.a(stm32f0xx_usart.o)
- .debug_frame   0x00000000000009d8       0x20 /home/ladvien/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000108      0x1d8 build/main.o
+ .debug_frame   0x00000000000002e0      0x110 lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
+ .debug_frame   0x00000000000003f0       0x50 lib/libstm32f0_periph.a(stm32f0xx_misc.o)
+ .debug_frame   0x0000000000000440      0x298 lib/libstm32f0_periph.a(stm32f0xx_rcc.o)
+ .debug_frame   0x00000000000006d8      0x34c lib/libstm32f0_periph.a(stm32f0xx_usart.o)
+ .debug_frame   0x0000000000000a24       0x20 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000a44       0x28 /Users/caseybrittain/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
 
 .debug_loc      0x0000000000000000     0x1614
  .debug_loc     0x0000000000000000      0x3fe lib/libstm32f0_periph.a(stm32f0xx_gpio.o)
